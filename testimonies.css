@@ -1,0 +1,147 @@
+.header{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), 
+      url("https://images.unsplash.com/photo-1579047917338-a6a69144fe63?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGFwcHklMjBjbGllbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.logo{
+    width: 100px;
+}
+
+
+.middle h1{
+    font-family: 'Tiro Telugu', serif;
+    height: 80vh;
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: white;
+    margin-top: 50px;
+    font-size: 100px;
+}
+
+.motto{
+    margin-top: 450px;
+color: white;
+font-family: 'Courgette', cursive; 
+font-size: 50px;
+}
+.wave{
+    position: absolute;
+    bottom: 0px;
+}
+
+:root{
+    --main-color:green;
+}
+.navbar ul li a:hover{
+    color: var(--main-color) !important;
+border-bottom: 1px solid var(--main-color);
+}
+
+.act{
+    color: var(--main-color) !important;
+    border-bottom: 1px solid var(--main-color);
+    }
+.nav-link{
+    font-family: 'Allerta', sans-serif;
+    font-size: 25px;
+}
+
+.text{
+    color: white;
+}
+#green{
+background-color: green;
+}
+#block{
+border-left: 3px solid white;
+height: 50px;
+
+}
+#jet a{
+    color: white;
+    text-decoration: none;
+}
+#jet{
+    color: white;
+}
+#h{
+    margin-top: 20px;
+}
+.comment{
+    text-align: end;
+}
+#c{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card-body{
+    background-color: green;
+}
+.card-body p{
+color: white;
+}
+.card-body h5{
+color: white;
+}
+#mute{
+background-color: rgb(156, 160, 133);
+}
+#foot{
+    color: black;
+text-align: end;
+}
+#text{
+    text-align: end;
+}
+#first{
+    margin-top: 40px;
+}
+#c{
+    background-color:rgba(41, 194, 233, 0.5);
+}
+#b{
+    color: black;
+}
+#a{
+    background-color: rgb(21, 160, 84);
+}
+#d{
+    background-color: rgb(221, 190, 13);
+}
+#g{
+    background-color: rgba(97, 167, 199, 0.952);
+}
+#f{
+    background-color: white;
+    
+}
+#p{
+    background-color: rgb(64, 184, 154);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#no{
+color: black;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1200px) {
+.middle h1{
+    font-size: 5rem;
+}
+}

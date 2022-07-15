@@ -1,0 +1,129 @@
+.header{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), 
+      url("https://images.unsplash.com/photo-1620063224601-ead11b9737bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHRhaWxvcmluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.logo{
+    width: 100px;
+}
+
+
+.middle h1{
+    font-family: 'Tiro Telugu', serif;
+    height: 80vh;
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: white;
+    margin-top: 50px;
+    font-size: 100px;
+    }
+.motto{
+    margin-top: 450px;
+color: white;
+font-family: 'Courgette', cursive; 
+font-size: 50px;
+}
+.wave{
+    position: absolute;
+    bottom: 0px;
+}
+
+.who{
+    font-family: 'Tiro Telugu', serif;
+    font-size: 60px;
+    color: green;
+}
+
+.make{
+    margin-top: 30px;
+    font-family: 'Tiro Telugu', serif;
+    font-size: 50px;
+    color: green;
+}
+.card-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: green;
+    font-family: 'Allerta', sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.card-text{
+    font-size: 20px;
+    font-family: 'Allerta', sans-serif;
+}
+:root{
+    --main-color:green;
+}
+.navbar ul li a:hover{
+    color: var(--main-color) !important;
+border-bottom: 1px solid var(--main-color);
+}
+
+.act{
+    color: var(--main-color) !important;
+    border-bottom: 1px solid var(--main-color);
+    }
+.nav-link{
+    font-family: 'Allerta', sans-serif;
+    font-size: 25px;
+}
+.product{
+margin-top: 90px;
+}
+.container-fluid{
+    margin: 0px;
+}
+.kids{
+    font-family: 'Tiro Telugu', serif;
+    font-size: 50px;
+    text-align: center;
+}
+#row{
+    margin-top: 40px;
+}
+#delivery{
+    font-family: 'Trade Winds', cursive;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+}
+#delivery h1{
+    font-family: 'Trade Winds', cursive;
+    margin-top: 40px;
+    font-size: 60px;
+    letter-spacing: 20px;
+}
+.text{
+    color: white;
+}
+#green{
+background-color: green;
+}
+#block{
+border-left: 3px solid white;
+height: 50px;
+
+}
+#jet a{
+    color: white;
+    text-decoration: none;
+}
+#jet{
+    color: white;
+}
+#services{
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+ text-decoration: none;
+}
+#p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
